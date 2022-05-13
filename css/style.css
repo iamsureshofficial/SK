@@ -1,5 +1,3 @@
-
- @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
 body{
   margin: 0;
   color: #40514E;
@@ -9,7 +7,8 @@ body{
 
 }
 .about{
-  font-family: 'Rancho', cursive;
+  font-family: 'Righteous', cursive;
+  font-size: 0.65rem;
 }
 .top-container{
   background-color: #E4F9F5;
@@ -26,18 +25,18 @@ body{
 .top-clouds{
   width: 150px;
   position: absolute;
-  right: 300px;
+  right: 70px;
   top: 70px;
 }
 .bottom-clouds{
   width: 150px;
   position: absolute;
-  left: 300px;
-  bottom: 300px;
+  left: 70px;
+  top: 320px;
 }
-.mountain{
+.programmer{
 
-  width: 500px;
+  width: 40%;
 }
 
 .dp{
@@ -75,7 +74,7 @@ h2{
 }
 h3{
     color: #0A81AB;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     font-family: 'Righteous', cursive;
 }
 hr{
@@ -115,6 +114,7 @@ a:hover{
 }
 .btn{
     background: #0A81AB;
+    border: none;
     color: white;
     cursor: pointer;
     border-radius: 25%;
@@ -145,4 +145,10 @@ a:hover{
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0px;
+}
+.postulate{
+      color: black;
+}
+.postulate:hover{
+    color: #0A81AB;
 }
